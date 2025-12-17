@@ -5,13 +5,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>winter bathing in Aarhus</title>
   <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="https://use.typekit.net/hbm4caq.css">
 </head>
 <body>
   <header>
-    <!-- HERE GOES HEADER NAV -->
+    <nav class="mobile-menu">
+      <a href="#">Guide</a>
+      <a href="#spotoverview">Locations</a>
+      <a href="#" class="cta">Sign In</a>
+    </nav>
+    <div class="logo">
+      <p>winter bathing</p>
+      <p>Aarhus</p>
+    </div>
+    <div class="burger">
+      <img src='/util/burger.png'>
+    </div>
   </header>
   <main>
-    <!-- HERE GOES MAIN CONTENT: List, Detailspage,...-->
+    <div class="carousel">
+        <div class="carousel-track">
+          <a href="" class="carousel-slide active">
+            <img src="/util/slide1.jpg" alt="Guide">
+            <div class="carousel-text header navyblue">Winter Bathing Guide</div>
+          </a>
+          <a href="#spotoverview" class="carousel-slide">
+            <img src="/util/slide2.jpg" alt="Locations">
+            <div class="carousel-text header navyblue">Locations</div>
+          </a>
+          <a href="" class="carousel-slide">
+            <img src="/util/slide3.jpg" alt="Sign Up">
+            <div class="carousel-text header navyblue">Join the community</div>
+          </a>
+        </div>
+        <div class="carousel-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+    </div>
+    <div class="spotsoverview" id="spotoverview">
+      <div class="header black">Locations</div>
+        <iframe src="https://www.google.com/maps/d/embed?mid=18vagL9aLyAqklvexVUZNqWmoKEJTQus&ehbc=2E312F&noprof=1"></iframe>
+      <div class="map-overlay">
+        <a href="ballehagestrand.html" class="map-link ballehage">
+          Ballehage Strand
+        </a>
+        <a href="hoerhaven.html" class="map-link hoerhaven">
+          Hørhaven
+        </a>
+        <a href="oernederenbeach.html" class="map-link oernedere">
+          Ørnereden Beach
+        </a>
+      </div>
+    </div>
   </main>
   <footer>
     <script src="script.js"></script>
